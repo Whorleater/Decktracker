@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  script(type='text/javascript')
+      var ifiles = JSON.parse('!{filesR}');
+      console.log(ifiles)
